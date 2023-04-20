@@ -14,17 +14,14 @@ const Appbar = () => {
 			<header className='border-b bg-zinc-100 px-safe dark:border-zinc-800 dark:bg-zinc-900'>
 				<div className='mx-auto flex h-20 max-w-screen-md items-center justify-between px-6'>
 					<Link href='/'>
-						<a>
 							<h1 className='font-medium'>Rice Bowl</h1>
-						</a>
 					</Link>
 
 					<nav className='flex items-center space-x-6'>
 						<div className='hidden sm:block'>
 							<div className='flex items-center space-x-6'>
 								{links.map(({ label, href }) => (
-									<Link key={label} href={href}>
-										<a
+									<Link key={label} href={href}
 											className={`text-sm ${
 												router.pathname === href
 													? 'text-indigo-500 dark:text-indigo-400'
@@ -32,7 +29,6 @@ const Appbar = () => {
 											}`}
 										>
 											{label}
-										</a>
 									</Link>
 								))}
 							</div>

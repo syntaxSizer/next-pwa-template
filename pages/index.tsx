@@ -1,5 +1,6 @@
 import Page from '@/components/page'
 import Section from '@/components/section'
+import Link from 'next/link'
 
 const Index = () => (
 	<Page>
@@ -21,12 +22,12 @@ const Index = () => (
 				<br />
 
 				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a
+					<Link
 						href='https://github.com/mvllow/next-pwa-template'
 						className='underline'
 					>
 						Source
-					</a>
+					</Link>
 				</p>
 			</div>
 		</Section>

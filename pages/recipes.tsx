@@ -1,5 +1,6 @@
 import Page from '@/components/page'
 import Section from '@/components/section'
+import Link from 'next/link'
 
 const Recipes = () => (
 	<Page>
@@ -19,16 +20,16 @@ const Recipes = () => (
 
 			<ul className='list-disc space-y-2 px-6 py-2'>
 				<li className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a href='https://unsplash.com' className='underline'>
+					<Link href='https://unsplash.com' className='underline'>
 						Unsplash
-					</a>{' '}
+					</Link>{' '}
 					for high quality images
 				</li>
 
 				<li className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a href='https://teenyicons.com' className='underline'>
+					<Link href='https://teenyicons.com' className='underline'>
 						Teenyicons
-					</a>{' '}
+					</Link>{' '}
 					for lovely icons
 				</li>
 			</ul>

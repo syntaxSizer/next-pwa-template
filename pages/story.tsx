@@ -1,5 +1,6 @@
 import Page from '@/components/page'
 import Section from '@/components/section'
+import Link from 'next/link'
 
 const Story = () => (
 	<Page>
@@ -16,9 +17,9 @@ const Story = () => (
 				<br />
 
 				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a href='https://twosentencestories.com/vision' className='underline'>
+					<Link href='https://twosentencestories.com/vision' className='underline'>
 						Vision
-					</a>
+					</Link>
 					, a two sentence story
 				</p>
 			</div>
