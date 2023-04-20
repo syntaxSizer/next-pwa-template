@@ -1,38 +1,48 @@
 {
-	"name": "next-pwa-template",
-	"version": "0.0.0",
-	"license": "MIT",
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"next": "13.3.0",
-		"next-pwa": "^5.6.0",
-		"next-themes": "^0.2.1",
-		"react": "18.2.0",
-		"react-dom": "18.2.0"
-	},
-	"devDependencies": {
-		"@types/node": "^18.15.12",
-		"@types/react": "^18.0.37",
-		"autoprefixer": "^10.4.14",
-		"eslint": "^8.38.0",
-		"eslint-config-next": "^13.3.0",
-		"eslint-config-prettier": "^8.8.0",
-		"postcss": "^8.4.23",
-		"prettier": "^2.8.7",
-		"prettier-plugin-tailwindcss": "^0.2.7",
-		"tailwindcss": "^3.3.1",
-		"tailwindcss-safe-area": "^0.2.2",
-		"typescript": "^5.0.4"
-	},
-	"prettier": {
-		"semi": false,
-		"singleQuote": true,
-		"jsxSingleQuote": true,
-		"useTabs": true
-	}
+  "name": "next-pwa-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sb": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "next": "13.3.0",
+    "next-pwa": "^5.6.0",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.6",
+    "@storybook/addon-interactions": "^7.0.6",
+    "@storybook/addon-links": "^7.0.6",
+    "@storybook/blocks": "^7.0.6",
+    "@storybook/nextjs": "^7.0.6",
+    "@storybook/react": "^7.0.6",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^18.15.12",
+    "@types/react": "^18.0.37",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-next": "^13.3.0",
+    "eslint-config-prettier": "^8.8.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "storybook": "^7.0.6",
+    "tailwindcss": "^3.3.1",
+    "tailwindcss-safe-area": "^0.2.2",
+    "typescript": "^5.0.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "useTabs": true
+  }
 }
